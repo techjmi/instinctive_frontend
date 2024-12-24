@@ -14,6 +14,9 @@ const DashboardOverview = () => {
 const Handleclick=()=>{
   navigate('/profile')
 }
+const handlesignup=()=>{
+  navigate('/signup')
+}
   return (
     <div className="p-6 bg-white rounded-md">
       {/* User Profile Section */}
@@ -47,6 +50,18 @@ const Handleclick=()=>{
           <p className="text-sm text-gray-500">Inactive Students</p>
         </div>
       </div>
+      <div className="flex flex-col items-center mt-4 min-h-screen">
+  <p className="text-center mb-4 font-semibold text-slate-500">
+    To view the full website, please sign up or log in below.
+  </p>
+  <button
+    onClick={handlesignup}
+    className="text-center mt-2 bg-slate-100 py-2 px-4 text-blue-600 border border-blue-600 rounded-lg font-semibold hover:bg-blue-100 focus:outline-none transition duration-300"
+  >
+    Signup
+  </button>
+</div>
+
     </div>
   );
 };
