@@ -72,10 +72,10 @@ const navigate= useNavigate()
     }
   };
   return (
-    <div className="min-h-screen flex justify-center items-center bg-gray-100">
+    <div className="md:min-h-screen flex justify-center items-center bg-gray-100">
       <form
         onSubmit={handleSubmit}
-        className="bg-white p-8 rounded-lg shadow-lg w-full max-w-md"
+        className="bg-white p-8 rounded-lg shadow-sm w-full max-w-md"
       >
         <h2 className="text-3xl font-bold text-center mb-6">Create Account</h2>
 

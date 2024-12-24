@@ -85,8 +85,8 @@ if(response.success){
   
 
   return (
-    <div className="flex justify-center items-center min-h-screen bg-gray-100">
-      <div className="bg-white p-6  w-1/2">
+    <div className="flex justify-center items-center h-screen bg-slate-50">
+      <div className="p-4 w-full items-center bg-white shadow-sm">
         <h2 className="text-xl font-bold mb-4">Edit Student</h2>
 
         {error && <p className="text-red-500">{error}</p>}

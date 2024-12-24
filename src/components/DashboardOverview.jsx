@@ -51,7 +51,7 @@ const handlesignup=()=>{
           <p className="text-sm text-gray-500">Inactive Students</p>
         </div>
       </div>
-      <div className="flex flex-col items-center mt-4 min-h-screen">
+      <div className="flex flex-col items-center mt-4">
     {token ? (
       <p className="text-center mb-4 font-semibold text-slate-500">
         {/* Welcome, you are logged in! */}

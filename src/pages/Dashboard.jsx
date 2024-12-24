@@ -22,7 +22,7 @@ const Dashboard = () => {
   }, [location.search]); 
 
   return (
-    <div className="min-h-screen flex flex-col md:flex-row bg-slate-50 gap-3">
+    <div className="md:min-h-screen flex flex-col md:flex-row">
       <div className="sidebar md:w-56">
         <SidebarDash />
       </div>

@@ -12,7 +12,7 @@ const SidebarDash = () => {
     activeTab === tab ? 'bg-slate-200 font-bold' : '';
 
   return (
-    <div className="bg-slate-100 flex flex-col gap-3 min-h-screen p-4">
+    <div className="bg-slate-100 flex flex-col gap-3 md:min-h-screen p-4">
       <Link
         to="/?tab=dash"
         className={`flex items-center gap-2 p-2 rounded hover:bg-slate-200 ${getActiveClass('dash')}`}

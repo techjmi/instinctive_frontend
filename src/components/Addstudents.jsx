@@ -43,8 +43,8 @@ const navigate= useNavigate()
   };
 
   return (
-    <div className="flex justify-center items-center min-h-screen bg-gray-100">
-      <div className="bg-white rounded-lg shadow-lg p-8 w-full max-w-lg">
+    <div className="flex justify-center items-center h-screen bg-gray-100">
+      <div className="bg-white rounded-lg shadow-sm p-8 w-full max-w-lg">
         {/* Title */}
         <h1 className="text-3xl font-semibold text-center text-gray-800 mb-6">Student Information</h1>
 
