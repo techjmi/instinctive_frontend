@@ -8,7 +8,7 @@ import EditStudent from './pages/EditStuent'
 import Signup from './pages/Sinup'
 import Login from './pages/Login'
 import Profile from './components/Profile'
-import Updateprofile from './pages/updateprofile'
+import ProfileUpdate from './pages/ProfileUpdate'
 function App() {
 
 
@@ -22,7 +22,7 @@ function App() {
     <Route path='/signup'element={<Signup />} />
     <Route path='/login'element={<Login />} />
     <Route path='/profile'element={<Profile />} />
-    <Route path='/update'element={<Updateprofile />} />
+    <Route path='/update'element={<ProfileUpdate />} />
     </Routes>
     </BrowserRouter>
     
